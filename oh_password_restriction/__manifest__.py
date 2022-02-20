@@ -4,7 +4,7 @@
 ##############################################################################
 {
     'name': "Website Password Restriction",
-    'version': "14.0.1",
+    'version': "12.0.1",
     'summary': """Website Password Restriction""",
     'description': """Website Password Restriction""",
     'author': "Odoo Helper",
