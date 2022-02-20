@@ -14,6 +14,11 @@
     'data': [
         'views/assets.xml',
     ],
+    'assets': {
+        'web.assets_frontend': [
+            'oh_password_restriction/static/src/js/custom.js',
+        ],
+    },
     'images': ['images/OdooHelper.jpg'],
     'price': 18.23,
     'currency': 'USD',

@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 	<data>
-		<template id="assets_frontend" name="website assets"
-			inherit_id="web.assets_frontend">
-			<xpath expr="//link" position="after">
-				<script src="/oh_password_restriction/static/src/js/custom.js" type="text/javascript"></script>
-			</xpath>
-		</template>
 
 		<template id="auth_signup_inherit" name="Sign up login" inherit_id="auth_signup.fields">
 			<xpath expr="//div[hasclass('field-password')]" position="after">
@@ -21,5 +15,6 @@
 				</div>
 			</xpath>
 		</template>
+
 	</data>
 </odoo>
